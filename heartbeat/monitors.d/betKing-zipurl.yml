@@ -1,0 +1,22 @@
+#- name: Hipster E-Commerce
+#  id: hipster-ecommerce
+#  type: browser
+#  schedule: "@every 3m"
+#  tags: ecommerce-app
+#  params:
+#    url: "https://elastic-synthetics-demo-ecommerce.vercel.app/"
+#  source:
+#    zip_url:
+#      url: "https://github.com/elastic/synthetics-demo/archive/refs/heads/main.zip"
+#      folder: "e-commerce"
+name: betKing
+  id: kingmakers-betKing
+  type: browser
+  schedule: "@every 3m"
+  tags: ecommerce-app
+  params:
+    url: "https://www.betking.com/sports/s"
+  source:
+    zip_url:
+      url: "https://github.com/elastic/synthetics-demo/archive/refs/heads/main.zip"
+      folder: "betKing"

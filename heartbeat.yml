@@ -1,0 +1,16 @@
+heartbeat.monitors:
+- name: betKing
+  id: betKing
+  type: browser
+  schedule: "@every 1m"
+  source:
+    zip_url:
+      url: "https://github.com/Deepak1332/synthetic/blob/main/synthetic-e2e-tests-main.zip"
+      folder: "synthetic-e2e-tests/betKing"
+
+// Sample ES output options, override these with whatever is appropriate for your environment
+// or use the cloud.id / cloud.auth options instead
+output.elasticsearch:
+    hosts: localhost:9200
+    username: elastic
+    password: changeme

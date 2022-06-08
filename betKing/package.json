@@ -1,0 +1,15 @@
+{
+  "name": "betKing-demo",
+  "private": true,
+  "description": "test the betKing app",
+  "scripts": {
+    "test": "npx elastic-synthetics ."
+  },
+  "dependencies": {
+    "@elastic/synthetics": "^1.0.0-beta.26",
+    "chrome-launcher": "^0.15.1",
+    "chromium": "^3.0.3",
+    "playwright": "^1.19.2",
+    "@playwright/test": "^1.19.2"
+  }
+}
