@@ -18,5 +18,5 @@ name: betKing
     url: "https://www.betking.com/sports/s"
   source:
     zip_url:
-      url: "https://github.com/elastic/synthetics-demo/archive/refs/heads/main.zip"
+      url: "https://github.com/Deepak1332/synthetic-e2e-test/archive/refs/heads/main.zip"
       folder: "betKing"
