@@ -9,11 +9,11 @@
 #    zip_url:
 #      url: "https://github.com/elastic/synthetics-demo/archive/refs/heads/main.zip"
 #      folder: "e-commerce"
-name: betKing
+- name: betKing
   id: kingmakers-betKing
   type: browser
   schedule: "@every 3m"
-  tags: ecommerce-app
+  tags: betKing
   params:
     url: "https://www.betking.com/sports/s"
   source:
