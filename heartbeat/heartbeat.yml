@@ -13,3 +13,6 @@ processors:
   - add_docker_metadata: ~
 
 hostPid: true
+
+output.elasticsearch:
+  allow_older_versions: true
