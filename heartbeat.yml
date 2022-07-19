@@ -14,3 +14,4 @@ output.elasticsearch:
     hosts: localhost:9200
     username: elastic
     password: changeme
+output.elasticsearch.allow_older_versions: true
